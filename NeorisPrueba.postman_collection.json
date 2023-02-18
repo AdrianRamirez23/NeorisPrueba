@@ -1,0 +1,296 @@
+{
+	"info": {
+		"_postman_id": "f859bd0f-9ac1-40c0-add2-e523352b2775",
+		"name": "NeorisPrueba",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "8747497"
+	},
+	"item": [
+		{
+			"name": "CrearCuentas",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[\r\n  {\r\n    \"clienteId\": 0,\r\n    \"numeroCuenta\": \"string\",\r\n    \"tipoCuenta\": 2,\r\n    \"saldoInicial\": 10000000000,\r\n    \"estado\": true,\r\n    \"idClienteNavigation\": {\r\n      \"clienteId\": 0,\r\n      \"contrasena\": 9999,\r\n      \"estado\": true,\r\n      \"personaCliente\": {\r\n        \"personaId\": 0,\r\n        \"identificacion\": \"strings\",\r\n        \"nombre\": \"string\",\r\n        \"genero\": 2,\r\n        \"edad\": 99,\r\n        \"direccion\": \"stringstringstr\",\r\n        \"telefono\": \"stringstr\",\r\n        \"cliente\": \"string\",\r\n        \"generoNavigation\": {\r\n          \"idGenero\": 0,\r\n          \"genero1\": \"string\"\r\n        }\r\n      }\r\n    },\r\n    \"tipoCuentaNavigation\": {\r\n      \"idTipoCuenta\": 0,\r\n      \"tipoCuenta\": \"string\"\r\n    }\r\n  }\r\n]",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:32768/api/Cuentas/CrearCuenta",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "32768",
+					"path": [
+						"api",
+						"Cuentas",
+						"CrearCuenta"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CrearCuenta",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"clienteId\": 0,\r\n  \"numeroCuenta\": \"string\",\r\n  \"tipoCuenta\": 2,\r\n  \"saldoInicial\": 10000000000,\r\n  \"estado\": true,\r\n  \"idClienteNavigation\": {\r\n    \"clienteId\": 0,\r\n    \"contrasena\": 9999,\r\n    \"estado\": true,\r\n    \"personaCliente\": {\r\n      \"personaId\": 0,\r\n      \"identificacion\": \"strings\",\r\n      \"nombre\": \"string\",\r\n      \"genero\": 2,\r\n      \"edad\": 99,\r\n      \"direccion\": \"stringstringstr\",\r\n      \"telefono\": \"stringstr\",\r\n      \"cliente\": \"string\",\r\n      \"generoNavigation\": {\r\n        \"idGenero\": 0,\r\n        \"genero1\": \"string\"\r\n      }\r\n    }\r\n  },\r\n  \"tipoCuentaNavigation\": {\r\n    \"idTipoCuenta\": 0,\r\n    \"tipoCuenta\": \"string\"\r\n  }\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:32768/api/Cuentas/CrearCuenta",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "32768",
+					"path": [
+						"api",
+						"Cuentas",
+						"CrearCuenta"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "InformeMovimientos",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:32768/api/Movimientos/ListadoMovimientosByCliente/?id",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "32768",
+					"path": [
+						"api",
+						"Movimientos",
+						"ListadoMovimientosByCliente",
+						""
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": null
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CrearMovimientos",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[\r\n  {\r\n    \"idMovimiento\": \"string\",\r\n    \"fechaMovimiento\": \"2023-02-18T16:38:36.148Z\",\r\n    \"tipoMovimiento\": 2,\r\n    \"valor\": 10000000000,\r\n    \"saldo\": 0,\r\n    \"descripcion\": \"string\",\r\n    \"numeroCuenta\": \"string\",\r\n    \"numeroCuentaNavigation\": {\r\n      \"clienteId\": 0,\r\n      \"numeroCuenta\": \"string\",\r\n      \"tipoCuenta\": 2,\r\n      \"saldoInicial\": 10000000000,\r\n      \"estado\": true,\r\n      \"idClienteNavigation\": {\r\n        \"clienteId\": 0,\r\n        \"contrasena\": 9999,\r\n        \"estado\": true,\r\n        \"personaCliente\": {\r\n          \"personaId\": 0,\r\n          \"identificacion\": \"strings\",\r\n          \"nombre\": \"string\",\r\n          \"genero\": 2,\r\n          \"edad\": 99,\r\n          \"direccion\": \"stringstringstr\",\r\n          \"telefono\": \"stringstr\",\r\n          \"cliente\": \"string\",\r\n          \"generoNavigation\": {\r\n            \"idGenero\": 0,\r\n            \"genero1\": \"string\"\r\n          }\r\n        }\r\n      },\r\n      \"tipoCuentaNavigation\": {\r\n        \"idTipoCuenta\": 0,\r\n        \"tipoCuenta\": \"string\"\r\n      }\r\n    },\r\n    \"tipoMovimientoNavigation\": {\r\n      \"idTipoMovimiento\": 0,\r\n      \"tipoMovimiento\": \"string\"\r\n    }\r\n  }\r\n]",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:32768/api/Movimientos/CrearMovimientos",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "32768",
+					"path": [
+						"api",
+						"Movimientos",
+						"CrearMovimientos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CrearMovimiento",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"idMovimiento\": \"string\",\r\n  \"fechaMovimiento\": \"2023-02-18T16:39:08.068Z\",\r\n  \"tipoMovimiento\": 2,\r\n  \"valor\": 10000000000,\r\n  \"saldo\": 0,\r\n  \"descripcion\": \"string\",\r\n  \"numeroCuenta\": \"string\",\r\n  \"numeroCuentaNavigation\": {\r\n    \"clienteId\": 0,\r\n    \"numeroCuenta\": \"string\",\r\n    \"tipoCuenta\": 2,\r\n    \"saldoInicial\": 10000000000,\r\n    \"estado\": true,\r\n    \"idClienteNavigation\": {\r\n      \"clienteId\": 0,\r\n      \"contrasena\": 9999,\r\n      \"estado\": true,\r\n      \"personaCliente\": {\r\n        \"personaId\": 0,\r\n        \"identificacion\": \"strings\",\r\n        \"nombre\": \"string\",\r\n        \"genero\": 2,\r\n        \"edad\": 99,\r\n        \"direccion\": \"stringstringstr\",\r\n        \"telefono\": \"stringstr\",\r\n        \"cliente\": \"string\",\r\n        \"generoNavigation\": {\r\n          \"idGenero\": 0,\r\n          \"genero1\": \"string\"\r\n        }\r\n      }\r\n    },\r\n    \"tipoCuentaNavigation\": {\r\n      \"idTipoCuenta\": 0,\r\n      \"tipoCuenta\": \"string\"\r\n    }\r\n  },\r\n  \"tipoMovimientoNavigation\": {\r\n    \"idTipoMovimiento\": 0,\r\n    \"tipoMovimiento\": \"string\"\r\n  }\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:32768/api/Movimientos/CrearMovimiento",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "32768",
+					"path": [
+						"api",
+						"Movimientos",
+						"CrearMovimiento"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "UsuarioByID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:32768/api/Usuarios/UsuarioById?id",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "32768",
+					"path": [
+						"api",
+						"Usuarios",
+						"UsuarioById"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": null
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ListarUsuarios",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:32768/api/Usuarios/ListarUsuarios",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "32768",
+					"path": [
+						"api",
+						"Usuarios",
+						"ListarUsuarios"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CrearUsuarios",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"personaId\": 0,\r\n  \"identificacion\": \"strings\",\r\n  \"nombre\": \"string\",\r\n  \"genero\": 2,\r\n  \"edad\": 99,\r\n  \"direccion\": \"stringstringstr\",\r\n  \"telefono\": \"stringstr\",\r\n  \"cliente\": {\r\n    \"clienteId\": 0,\r\n    \"contrasena\": 9999,\r\n    \"estado\": true,\r\n    \"personaCliente\": \"string\"\r\n  },\r\n  \"generoNavigation\": {\r\n    \"idGenero\": 0,\r\n    \"genero1\": \"string\"\r\n  }\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:32768/api/Usuarios/CrearUsuario",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "32768",
+					"path": [
+						"api",
+						"Usuarios",
+						"CrearUsuario"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CrearListaUsuarios",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[\r\n  {\r\n    \"personaId\": 0,\r\n    \"identificacion\": \"strings\",\r\n    \"nombre\": \"string\",\r\n    \"genero\": 2,\r\n    \"edad\": 99,\r\n    \"direccion\": \"stringstringstr\",\r\n    \"telefono\": \"stringstr\",\r\n    \"cliente\": {\r\n      \"clienteId\": 0,\r\n      \"contrasena\": 9999,\r\n      \"estado\": true,\r\n      \"personaCliente\": \"string\"\r\n    },\r\n    \"generoNavigation\": {\r\n      \"idGenero\": 0,\r\n      \"genero1\": \"string\"\r\n    }\r\n  }\r\n]",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:32768/api/Usuarios/CrearListaUsuario",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "32768",
+					"path": [
+						"api",
+						"Usuarios",
+						"CrearListaUsuario"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "EditarUsuario",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"personaId\": 0,\r\n  \"identificacion\": \"strings\",\r\n  \"nombre\": \"string\",\r\n  \"genero\": 2,\r\n  \"edad\": 99,\r\n  \"direccion\": \"stringstringstr\",\r\n  \"telefono\": \"stringstr\",\r\n  \"cliente\": {\r\n    \"clienteId\": 0,\r\n    \"contrasena\": 9999,\r\n    \"estado\": true,\r\n    \"personaCliente\": \"string\"\r\n  },\r\n  \"generoNavigation\": {\r\n    \"idGenero\": 0,\r\n    \"genero1\": \"string\"\r\n  }\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:32768/api/Usuarios/EditarUsuario",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "32768",
+					"path": [
+						"api",
+						"Usuarios",
+						"EditarUsuario"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
