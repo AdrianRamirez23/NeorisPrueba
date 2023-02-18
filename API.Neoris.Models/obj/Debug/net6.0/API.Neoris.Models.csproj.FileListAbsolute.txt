@@ -1,0 +1,12 @@
+C:\Users\Adrian Ramirez\Documents\DesarrollosPersonales\UniversidadPrueba\API\API.Neoris\API.Neoris.Models\bin\Debug\net6.0\API.Neoris.Models.deps.json
+C:\Users\Adrian Ramirez\Documents\DesarrollosPersonales\UniversidadPrueba\API\API.Neoris\API.Neoris.Models\bin\Debug\net6.0\API.Neoris.Models.dll
+C:\Users\Adrian Ramirez\Documents\DesarrollosPersonales\UniversidadPrueba\API\API.Neoris\API.Neoris.Models\bin\Debug\net6.0\API.Neoris.Models.pdb
+C:\Users\Adrian Ramirez\Documents\DesarrollosPersonales\UniversidadPrueba\API\API.Neoris\API.Neoris.Models\obj\Debug\net6.0\API.Neoris.Models.csproj.AssemblyReference.cache
+C:\Users\Adrian Ramirez\Documents\DesarrollosPersonales\UniversidadPrueba\API\API.Neoris\API.Neoris.Models\obj\Debug\net6.0\API.Neoris.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Adrian Ramirez\Documents\DesarrollosPersonales\UniversidadPrueba\API\API.Neoris\API.Neoris.Models\obj\Debug\net6.0\API.Neoris.Models.AssemblyInfoInputs.cache
+C:\Users\Adrian Ramirez\Documents\DesarrollosPersonales\UniversidadPrueba\API\API.Neoris\API.Neoris.Models\obj\Debug\net6.0\API.Neoris.Models.AssemblyInfo.cs
+C:\Users\Adrian Ramirez\Documents\DesarrollosPersonales\UniversidadPrueba\API\API.Neoris\API.Neoris.Models\obj\Debug\net6.0\API.Neoris.Models.csproj.CoreCompileInputs.cache
+C:\Users\Adrian Ramirez\Documents\DesarrollosPersonales\UniversidadPrueba\API\API.Neoris\API.Neoris.Models\obj\Debug\net6.0\API.Neoris.Models.dll
+C:\Users\Adrian Ramirez\Documents\DesarrollosPersonales\UniversidadPrueba\API\API.Neoris\API.Neoris.Models\obj\Debug\net6.0\refint\API.Neoris.Models.dll
+C:\Users\Adrian Ramirez\Documents\DesarrollosPersonales\UniversidadPrueba\API\API.Neoris\API.Neoris.Models\obj\Debug\net6.0\API.Neoris.Models.pdb
+C:\Users\Adrian Ramirez\Documents\DesarrollosPersonales\UniversidadPrueba\API\API.Neoris\API.Neoris.Models\obj\Debug\net6.0\ref\API.Neoris.Models.dll

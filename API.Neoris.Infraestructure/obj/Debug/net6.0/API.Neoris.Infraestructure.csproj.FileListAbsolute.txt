@@ -1,0 +1,14 @@
+C:\Users\Adrian Ramirez\Documents\DesarrollosPersonales\UniversidadPrueba\API\API.Neoris\API.Neoris.Infraestructure\bin\Debug\net6.0\API.Neoris.Infraestructure.deps.json
+C:\Users\Adrian Ramirez\Documents\DesarrollosPersonales\UniversidadPrueba\API\API.Neoris\API.Neoris.Infraestructure\bin\Debug\net6.0\API.Neoris.Infraestructure.runtimeconfig.json
+C:\Users\Adrian Ramirez\Documents\DesarrollosPersonales\UniversidadPrueba\API\API.Neoris\API.Neoris.Infraestructure\bin\Debug\net6.0\API.Neoris.Infraestructure.dll
+C:\Users\Adrian Ramirez\Documents\DesarrollosPersonales\UniversidadPrueba\API\API.Neoris\API.Neoris.Infraestructure\bin\Debug\net6.0\API.Neoris.Infraestructure.pdb
+C:\Users\Adrian Ramirez\Documents\DesarrollosPersonales\UniversidadPrueba\API\API.Neoris\API.Neoris.Infraestructure\obj\Debug\net6.0\API.Neoris.Infraestructure.csproj.AssemblyReference.cache
+C:\Users\Adrian Ramirez\Documents\DesarrollosPersonales\UniversidadPrueba\API\API.Neoris\API.Neoris.Infraestructure\obj\Debug\net6.0\API.Neoris.Infraestructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Adrian Ramirez\Documents\DesarrollosPersonales\UniversidadPrueba\API\API.Neoris\API.Neoris.Infraestructure\obj\Debug\net6.0\API.Neoris.Infraestructure.AssemblyInfoInputs.cache
+C:\Users\Adrian Ramirez\Documents\DesarrollosPersonales\UniversidadPrueba\API\API.Neoris\API.Neoris.Infraestructure\obj\Debug\net6.0\API.Neoris.Infraestructure.AssemblyInfo.cs
+C:\Users\Adrian Ramirez\Documents\DesarrollosPersonales\UniversidadPrueba\API\API.Neoris\API.Neoris.Infraestructure\obj\Debug\net6.0\API.Neoris.Infraestructure.csproj.CoreCompileInputs.cache
+C:\Users\Adrian Ramirez\Documents\DesarrollosPersonales\UniversidadPrueba\API\API.Neoris\API.Neoris.Infraestructure\obj\Debug\net6.0\API.Neoris.Infraestructure.dll
+C:\Users\Adrian Ramirez\Documents\DesarrollosPersonales\UniversidadPrueba\API\API.Neoris\API.Neoris.Infraestructure\obj\Debug\net6.0\refint\API.Neoris.Infraestructure.dll
+C:\Users\Adrian Ramirez\Documents\DesarrollosPersonales\UniversidadPrueba\API\API.Neoris\API.Neoris.Infraestructure\obj\Debug\net6.0\API.Neoris.Infraestructure.pdb
+C:\Users\Adrian Ramirez\Documents\DesarrollosPersonales\UniversidadPrueba\API\API.Neoris\API.Neoris.Infraestructure\obj\Debug\net6.0\API.Neoris.Infraestructure.genruntimeconfig.cache
+C:\Users\Adrian Ramirez\Documents\DesarrollosPersonales\UniversidadPrueba\API\API.Neoris\API.Neoris.Infraestructure\obj\Debug\net6.0\ref\API.Neoris.Infraestructure.dll
